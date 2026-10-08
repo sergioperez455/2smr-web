@@ -1,0 +1,16 @@
+/* Comentario*/
+		th{
+			color:indigo;
+			background-color:grey;
+			text_align: center;
+		}
+		td{
+			tex-align: center;
+		}
+		.sistemas{
+			background-color:red;
+		}
+		.seguridad{
+			background-color:peachpuff;
+		}
+	</style>

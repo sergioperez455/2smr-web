@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formularioss</title>
+</head>
+<body>
+	<h1>Formularios</h1>
+
+	<form action="" method="get">
+	<fieldset>
+            <legend>Datos personales</legend>
+            <p>
+                <label for="txtNombre">Nombre: </label>
+                <input type="text" id="txtNombre" 
+                name="txtNombre" required autofocus>
+            </p>
+            <p>
+			<p>
+                <label for="txtEmail">Correo electrónico: </label>
+                <input type="email" id="txtEmail" 
+                name="txtEmail" required>
+            </p>
+            <p>
+                <label for="txtUrl">URL: </label>
+                <input type="url" id="txtUrl" 
+                name="txtUrl" placeholder="Inserta la URL de tu página web" size="90">
+            </p>
+            <p>
+                <label for="sCiudad">Ciudad </label>
+                <select id="sCiudad" name="sCiudad">
+                    <option value="AL">ALMERÍA</option>
+                    <option value="CA">CÁDIZ</option>
+                    <option value="CO">Córdoba</option>
+                    <option value="GR">GRANADA</option>
+                    <option value="HU">HUELVA</option>
+                    <option value="JA">JAÉN</option>
+                    <option value="MA">MÁLAGA</option>
+                    <option value="SE" selected>SEVILLA</option>
+                </select>
+            </p>
+        </fieldset>
+        <p>
+        	<label>numero</label>
+        	<input type="number" max="10" min="-10"
+        	size="8">
+        </p>
+        <fieldset>
+            <legend>Otros datos</legend>
+            <p>
+                <label for="txtFecha">Fecha: </label>
+                <input type="date" id="txtFecha" name="txtFecha">
+            </p>
+            <p>
+                <label for="txtTiempo">Tiempo: </label>
+                <input type="time" id="txtTiempo" name="txtTiempo">
+            </p>
+            <p>
+                <label for="txtDateTime">Fecha y hora: </label>
+                <input type="datetime" id="txtDateTime" name="txtDateTime">
+            </p>
+            <p>
+                <label for="txtMes">Mes: </label>
+                <input type="month" id="txtMes" name="txtMes">
+            </p>
+            <p>
+                <label for="txtSemana">Semana: </label>
+                <input type="week" id="txtSemana" name="txtSemana">
+            </p>
+            <p>
+                <label for="numNumero">Número (min -10, max 10): </label>
+                <input type="number" id="numNumero" name="numNumero" min="-10" max="10" value="0">
+            </p>
+            <p>
+                <label for="txtTelefono">Teléfono: </label>
+                <input type="tel" id="txtTelefono" name="txtTelefono">
+            </p>
+            <p>
+                <label for="txtBusqueda">Término de búsqueda: </label>
+                <input type="search" id="txtBusqueda" name="txtBusqueda">
+            </p>
+            <p>
+                <label for="colFavorito">Color favorito: </label>
+                <input type="color" id="colFavorito" name="colFavorito" value="#000000">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros controles</legend>
+            <p>
+                Aficiones
+                <input type="checkbox" id="chkCine" name="chkCine" value="1" checked>
+                <label for="chkCine">Cine</label>
+                <input type="checkbox" id="chkDeporte" name="chkDeporte" value="1">
+                <label for="chkDeporte">Deporte</label>
+            </p>
+            <p>
+                Forma de pago<br>
+                <input type="radio" id="radVisa" name="radPago" value="V">
+                <label for="radVisa">Visa</label>
+                <input type="radio" id="radAmex" name="radPago" value="A">
+                <label for="radAmex">American Express</label>
+                <input type="radio" id="radMasterCard" name="radPago" value="M">
+                <label for="radMasterCard">MasterCard</label>
+            </p>
+        </fieldset>
+
+        <p>
+         password:
+         <input type="password" maxlenght="10"
+         minleght="6">
+        </p>
+    </form>
+</body>
+</html>
