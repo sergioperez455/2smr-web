@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.caja1{
+	margin:2%;
+	padding: 20px;
+	width: 40%;
+	text-align: justify;
+	background-color: yellowgreen;
+	border: 10px solid #e7a219;
+}
+.caja2{
+	margin: 2%;
+	padding: 20px 20px 20px 20px;
+	width: 40%;
+	text-align: justify;
+	float: left;
+	background-color: yellow;
+	border: 3px dotted;
+	border-radius: 10px;
+	box-shadow: 5px 9px 3px gray;
+	float: left;
+}
+pre{
+	margin: 2px;
+	border:2px solid blue;
+	background-color:white;
+}
+.caja3{
+	widht: 40%;
+	margin:2%;
+	float: right;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+p.bola{
+	margin:2%;
+	border: 10px solid black;
+	border-image-source: url("../img/bola-100.png");
+	text-align: justify;
+}
+p.pastilla{
+	border: silver 25px solid;
+	
+}
