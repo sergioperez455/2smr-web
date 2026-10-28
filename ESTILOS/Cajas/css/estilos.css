@@ -1,0 +1,96 @@
+body {
+    background-color: #f4fbc1;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+header h1 {
+    color: blue;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+}
+
+nav {
+    background-color: #f7a2b2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#destacado {
+    border: 2px dashed orange;
+    padding: 10px;
+    margin: 20px 0;
+    color: #555;
+}
+
+.centrado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.caja {
+    border: 2px solid blue;
+    padding: 15px;
+    width: 42%;
+    background-color: #f4fbc1;
+    box-sizing: border-box;
+}
+
+.caja p {
+    color: green;
+    margin-bottom: 15px;
+}
+
+.caja p:first-child {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.izquierda {
+    float: left;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.derecha {
+    float: right;
+    margin-left: 10px;
+    width: 80px;
+}
+
+.caja p::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    margin-top: 40px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer p:last-child {
+    font-style: italic;
+}
