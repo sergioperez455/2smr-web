@@ -34,7 +34,7 @@ pre{
 	float: right;
 	position: absolute;
 	top:0;
-	right: 0;
+	right:0;
 }
 
 p.bola{
@@ -45,5 +45,5 @@ p.bola{
 }
 p.pastilla{
 	border: silver 25px solid;
-	
+
 }
