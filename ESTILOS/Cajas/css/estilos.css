@@ -1,96 +1,86 @@
-body {
-    background-color: #f4fbc1;
-    font-family: sans-serif;
-    margin: 20px;
+body{
+    background-color:khaki;
+    margin: 0 auto;
 }
 
-header h1 {
+.texto-destacado{
     color: blue;
-    text-align: center;
-    font-family: 'Arial Black', sans-serif;
 }
 
-nav {
-    background-color: #f7a2b2;
-    padding: 10px;
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightpink;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+ul li {
+  float: left;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 30px;
+ul li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-nav ul li a {
-    color: blue;
-    text-decoration: underline;
+ul li a:hover {
+  background-color: white;
+  color: red;
 }
 
-#destacado {
-    border: 2px dashed orange;
-    padding: 10px;
-    margin: 20px 0;
-    color: #555;
+#destacado{
+border-style: dashed;
+border-color: yellow;
+background-color: lightyellow;
+padding: 1%;
 }
 
-.centrado {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 30px;
+.caja{
+    border-style: solid;
+    border-color: blue;
+    box-sizing:border-box;
+    width:30%;
+    float:left;
+    position:relative;
+    margin-left:3%;
+    margin-right:3%;
 }
-
-.caja {
-    border: 2px solid blue;
-    padding: 15px;
-    width: 42%;
-    background-color: #f4fbc1;
-    box-sizing: border-box;
-}
-
-.caja p {
-    color: green;
-    margin-bottom: 15px;
+.caja p{
+    color:green;
 }
 
 .caja p:first-child {
-    font-weight: bold;
-    text-decoration: underline;
+font-weight: bold;
+text-decoration: underline;
+}
+/* Segundo párrafo dentro de la caja */
+.caja p:nth-of-type(2) {
+clear: both; /* fuerza a empezar debajo del flotado anterior */
+padding: 5px;
 }
 
-.izquierda {
-    float: left;
-    margin-right: 10px;
-    width: 80px;
+.izquierda{
+    float:left;
 }
 
-.derecha {
-    float: right;
-    margin-left: 10px;
-    width: 80px;
+.derecha{
+    float:right;
 }
 
-.caja p::after {
-    content: "";
-    display: table;
-    clear: both;
+footer{
+    position: absolute;
+    bottom: 0;
 }
 
-footer {
-    margin-top: 40px;
-    color: #666;
-    font-size: 0.9em;
+footer p:first-child{
+    color:dimgrey;
 }
 
-footer p {
-    margin: 5px 0;
-}
-
-footer p:last-child {
-    font-style: italic;
+footer p{
+    font-weight:bold;
+    color:darkgrey;
 }
