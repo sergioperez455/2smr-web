@@ -1,0 +1,13 @@
+.caja {
+	position: static;
+	width: 300px;
+	height: 300px;
+	border: blue 3px solid;
+}
+
+p {
+	position: relative;
+	float: left;
+	padding: 4px;
+	left: 10px;
+}
